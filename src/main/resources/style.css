@@ -1,0 +1,67 @@
+.table-view .column-header {
+    -fx-font-weight: bold;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: black;
+    -fx-text-fill: black;
+    -fx-font-size : 16px
+}
+
+/* Style pour les lignes de données */
+.table-view .table-row-cell {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: black;
+    -fx-font-size : 14px;
+    -fx-height : 50px;
+    -fx-padding: 10 0 0 0;
+
+}
+
+.table-row-cell {
+    -fx-padding: 4px 0px 0px 0px;
+}
+
+/* Style pour les lignes de données lors de la sélection */
+.table-row-cell:selected .table-cell{
+    -fx-background-color: rgb(78,110, 129);
+    -fx-text-fill: white;
+    -fx-font-size : 14px
+}
+
+/* Style pour les lignes de données lors du survol de la souris */
+.table-row-cell:hover .table-cell{
+     -fx-background-color: #81A2B6;
+     -fx-text-fill: white;
+      -fx-font-size : 14px
+}
+
+.combo-box-base {
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em; /* 4 8 4 8 */
+    -fx-text-fill: -fx-text-base-color;
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+}
+
+.combo-box .list-cell {
+    -fx-text-fill: #000000; /* couleur du texte */
+    -fx-font-size: 14px; /* taille de la police */
+    -fx-background-color: #FFFFFF; /* couleur de fond */
+}
+
+.combo-box .list-cell:hover {
+    -fx-background-color: #EFEFEF; /* couleur de fond au survol */
+}
+
+.combo-box .list-view {
+    -fx-background-color: #FFFFFF; /* couleur de fond de la liste */
+    -fx-border-color: #CCCCCC; /* couleur de la bordure */
+    -fx-border-width: 1px; /* épaisseur de la bordure */
+}
+
+.combo-box .list-view .empty {
+    -fx-text-fill: #999999; /* couleur du texte pour la liste vide */
+}
+
+
+
